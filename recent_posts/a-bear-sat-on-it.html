@@ -5,8 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     * {
-      box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ ::before,
+ ::after {
+  box-sizing: inherit;
+}
+
+/* div {
+  column-count: 2;
+} */
 
     /* Add a gray background color with some padding */
     body {
@@ -20,6 +31,9 @@
       margin-top: 0px;
       width: 100%;
       height: auto;
+    }
+    p {
+      text-align: justify;
     }
 
 
@@ -40,7 +54,7 @@
     /* Left column */
     .leftcolumn {
       float: left;
-      width: 100%;
+      width: 75%;
       line-height: 1.6;
       font-size: 24px;
     }
@@ -48,17 +62,25 @@
     /* Right column */
     .rightcolumn {
       float: left;
-      width: 0%;
+      width: 25%;
       padding-left: 20px;
     }
 
     /* Fake image */
     .fakeimg {
 
-
+      max-width: calc(100% - 100px);
       float: right;
       margin-left: 20px;
       margin-bottom: 20px;
+
+    }
+    .smallimg {
+      float: right;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+
 
     }
 
@@ -68,6 +90,7 @@
       padding: 20px;
       margin-top: 20px;
       text-align: justify;
+      column-count: 1;
     }
 
     /* Clear floats after the columns */
@@ -131,8 +154,8 @@
           Canada is also enlivened, often for short electric periods of enlivenedness (if that’s a word), by bears.<br>
         
           Now I won’t presume to discourse on bears, there are plenty of great sources for you to read if the topic of the genus
-          ursus interests you.<br> Probably the best I feel is Bill Bryson’s A Walk in the Woods:
-        
+          ursus interests you.<br> Probably the best I feel is Bill Bryson’s <a href="https://www.wob.com/en-au/books/bryson-bill/walk-in-the-woods/9781784161118/GOR006964076?cq_src=google_ads&cq_cmp=17717754919&cq_con=&cq_med=pla&cq_plac=&cq_net=x&gad_source=1&gclid=CjwKCAjw17qvBhBrEiwA1rU9w7MQLIosPMrsKsK78qI7yp6dvxH_uLV11C53WS9oen3ktCFA1BascRoCZQwQAvD_BwE&gclsrc=aw.ds"> A Walk in the Woods.</a><br>
+          
         
           But my friend’s conversation did remind me, for some reason, of the time I went to borrow a tent from a work
           colleague.<br>
@@ -145,22 +168,22 @@
           camp in Golden Gate park, and see the sites and the wilderness of the Bay area.<br>
         
         
-          Golden Gate Park, California
+          
           My female friend was providing the car, but she said to me: ‘can you get a tent?’ So I asked around at work – I was
           Greenpeace at the time – and so most people working there were wilderness lovers of one form or another, usually fully
           accoutred with all sorts of outdoor gear, so I felt that was a reasonable place to start.<br>
         
           [Side note: going down to Kmart and spending $20 on a tent just didn’t occur to me, another of my life-long failings
           has
-          been that I was, perhaps am, a cheapskate beyond belief, but I’m working on getting better.<br>]
+          been that I was, perhaps am, a cheapskate beyond belief, but I’m working on getting better.]<br>
         
           But leaving my cheapskatedness aside, a work colleague was able to help, she said: ‘I’ve got a tent you can borrow,
           it’s
           a two-person pup tent, you can sleep in it, but one end is really deformed, so you have to make sure you set it up
-          right, so the zipper door is at the end that’s still intact.<br>‘
-          So I asked: ‘Oh, why is it deformed?‘
+          right, so the zipper door is at the end that’s still intact.‘<br>
+          So I asked: ‘Oh, why is it deformed?‘<br>
         
-          To which she replied: ‘A bear sat on it.<br>’
+          To which she replied: ‘A bear sat on it.’<br>
         
           Now when I thought of that moment again, now, 35 years later, I’m cursing myself for not getting the full story.<br> Good
           grief, what sort of bloody journalist am I if I’ve been given that sort of lead in, and then didn’t follow up and find
@@ -199,13 +222,21 @@
           work friend’s tent, I’m sure never crossed the mind of the bear at any point.<br>
         
         
-          My work friend’s tent was of this style, two triangle frames at each end.<br>
-          Once it had been, er, reshaped by the bear – so my work friend told me – the end had changed to something like this:
+          My work friend’s tent was of the two triangle frames at each end.<br>
+          Once it had been, er, reshaped by the bear – so my work friend told me – the end had changed to something like the figure to the right shows. 
+          <div class="smallimg">
+            <figure>
+              <img width="500px" src="/Users/fakename/Sites/blog/images/RP_images/tent_deformed.png" alt="Wilde">
+          
+            </figure>
+          </div>
+          
         
         
           Anyway, so there you have it, if you do head into the wild’s of Canada and have trouble with bears, hope with all your
           might that the bear sitting on the end of your tent is the worst of it.<br> [And that's if you’re not in the tent if that
-          happens]
+          happens] <br>
+          <p></p>
         
         
         

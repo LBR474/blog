@@ -2,215 +2,72 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        * {
-            box-sizing: border-box;
+        body, html {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-
-        /* Add a gray background color with some padding */
-        body {
-            font-family: Arial;
-            padding: 20px;
-            background: #f1f1f1;
+        .container {
+            position: relative;
             text-align: justify;
-        }
-        figure {
-            margin-top: 0px;
-        }
-        
-        .floatLeft {
-            float: left;
-            margin: 20px;
+            height: 90%;
+            border: 2px rgb(30, 255, 0) solid;
         }
 
-        /* Header/Blog Title */
-        .header {
-            padding: 30px;
-            font-size: 40px;
-            text-align: center;
-            background: white;
-        }
-
-        /* Create two unequal columns that floats next to each other */
-        /* Left column */
-        .leftcolumn {
-            float: left;
-            width: 100%;
-            line-height: 1.6;
-            font-size: 24px;
-        }
-
-        /* Right column */
-        .rightcolumn {
-            float: left;
-            width: 0%;
-            padding-left: 20px;
-        }
-
-        /* Fake image */
-        .fakeimg {
-            
-            
-            float: right;
+        .topright {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 30%;
+            font-size: 18px;
+            border: 2px red solid;
             margin-left: 20px;
-            margin-bottom: 20px;
-            
+            padding-top: 10px;
         }
 
-        /* Add a card effect for articles */
-        .card {
-            background-color: white;
-            padding: 20px;
-            margin-top: 20px;
-            text-align: justify;
+        article {
+            float: left;
+            width: calc(70% - 50px);
+            font-size: 24px;
+            border: 2px aqua solid;
+            padding: 10px;
         }
 
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
+        footer {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
         }
 
-        /* Footer */
-        .footer {
-            padding: 20px;
+        header {
+            font-size: 70px;
             text-align: center;
-            background: #ddd;
-            margin-top: 20px;
+            padding: 50px;
+            border: 2px red solid;
         }
 
-        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 800px) {
-
-            .leftcolumn,
-            .rightcolumn {
-                width: 100%;
-                padding: 0;
-            }
+        img {
+            width: 100%;
+            height: auto;
+            opacity: 0.9;
+            float: right;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="header">
-        <h2>Blog Day Afternoon</h2>
+    <header>Blog Day Afternoon</header>
+    <div class="container">
+        <article> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore quae repellendus optio quidem dolores ratione esse, maiores provident reiciendis consequatur ea non voluptate. Magni tempore dolorem tenetur eius deleniti optio voluptate? Perferendis officiis optio nihil aliquam totam hic natus, velit nam reiciendis eligendi dolorum consequatur eveniet ad animi doloribus quo ducimus minima, laudantium modi! Quisquam voluptates, velit in commodi harum natus ipsam adipisci tenetur, reiciendis, repudiandae est saepe atque omnis amet. Culpa asperiores eos accusamus ab ea explicabo nihil eveniet quae. Voluptatibus quia iure accusantium obcaecati, consectetur sequi aperiam magni expedita reprehenderit porro reiciendis deserunt nemo corporis facere quis voluptate rerum voluptas maiores ipsum recusandae nobis similique iste ullam eius. Consequuntur quia, facere iusto voluptatum ut incidunt labore dolor animi nostrum nemo placeat! Impedit ab nemo quo adipisci velit! Architecto repellat sunt accusantium nobis totam placeat, tempore, cumque sed saepe libero esse. Odio placeat ea eius laboriosam sed. Perferendis quia magnam consectetur temporibus vel ullam aliquam placeat soluta veniam voluptas, possimus, sed suscipit fuga libero odit accusantium culpa architecto dicta provident id nihil illo similique, mollitia consequuntur. Ipsum nesciunt hic perferendis fugit rerum expedita praesentium tenetur facere, ipsam eveniet! Illo, facere, iusto obcaecati repellendus, minima animi architecto quidem laudantium at consectetur natus laborum quia cupiditate quam aut consequuntur doloribus aperiam atque praesentium ratione nostrum. Totam optio sint eveniet vel saepe, perferendis laborum labore quam architecto obcaecati maxime id reprehenderit iure quod non, quibusdam voluptatem et impedit dolore dignissimos blanditiis error. Quia accusamus quas nobis, ipsum molestias reiciendis. Reprehenderit provident itaque incidunt quod. Laudantium dolore cupiditate placeat possimus debitis reiciendis, nulla ex, itaque fugiat eum officiis neque inventore veniam hic, facilis sint eaque. Modi nobis qui, ullam magni, labore ut vel pariatur aliquam delectus mollitia enim id, expedita maiores hic alias? Nostrum, ipsam. Libero tempora animi deserunt maxime rerum accusantium consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum porro obcaecati temporibus, totam unde deleniti assumenda quis corrupti! Velit delectus at asperiores, reprehenderit sit veniam aspernatur officiis totam repellendus laboriosam officia in ut quas error, minus iure nostrum voluptas repudiandae debitis nemo, obcaecati vitae incidunt cupiditate? Sunt possimus, amet provident ad, obcaecati consequatur excepturi eum blanditiis odio alias, illum totam suscipit rerum! Dignissimos, voluptatum. Nulla amet quidem voluptatem repudiandae qui, omnis, provident dolorum adipisci explicabo iusto enim voluptates voluptate magni reprehenderit nisi eaque. Voluptatum consequuntur dolor sint obcaecati quod enim magnam blanditiis fugit ut deleniti, facilis ullam illum animi ab voluptatem vero asperiores eaque culpa beatae natus dolores. Facilis rem animi illo sapiente pariatur exercitationem blanditiis quos, assumenda voluptates nisi perferendis tempora? Tempora facere adipisci ullam expedita consequatur, illum doloremque assumenda laudantium ex cumque vitae voluptates velit veniam, officiis minima, officia vel rerum? Id, distinctio rerum consequuntur veritatis doloremque quae voluptate laudantium quidem itaque. Eos doloribus saepe sit recusandae consequatur deserunt officiis id ducimus, error excepturi consectetur alias magnam, quidem sunt voluptatum libero vitae dignissimos expedita dolorum corporis amet? Amet repellendus dolorum a molestiae saepe libero sapiente nihil, enim autem. Hic nam dolor, dolores temporibus doloribus voluptas quod alias, consequatur quae tempora animi. Praesentium, et dolores repellat, assumenda reiciendis numquam sunt distinctio perferendis nobis, veniam voluptatem eum error. Sint asperiores voluptate quod tenetur aliquid aut earum ab assumenda eos dolorem quasi maiores porro quas ad vitae hic neque, sunt totam expedita est temporibus odio eius. Iste rerum eligendi ipsum, pariatur odit iure dolore nobis eius nulla. Possimus ab minus fugit tempore vel iusto corporis, sequi voluptatibus magnam sed veritatis cumque similique perspiciatis eaque autem at! Eaque ipsum delectus corporis expedita doloribus ducimus consequatur obcaecati hic voluptatem earum quos, dicta cupiditate aliquam ratione in illum error velit minima pariatur. Cumque debitis quisquam perferendis esse in officia dicta voluptas magni consequatur itaque facilis voluptate eaque nihil, omnis minus commodi. Nam nisi aut quasi neque temporibus, itaque obcaecati. A facilis cum iusto accusamus, soluta consectetur libero numquam eos distinctio ipsa, ex ad architecto enim deleniti eum ducimus voluptatibus nesciunt nostrum iste sint aliquam rerum porro? Exercitationem praesentium est nihil dolorem, libero non soluta eum tempore iusto deleniti ex maxime dolorum saepe hic necessitatibus voluptates expedita repudiandae? Molestiae dolorem distinctio consequatur accusamus unde nemo eum aspernatur a, quasi quia voluptates enim, voluptate ut, quo itaque deserunt. Voluptas exercitationem quo molestias quasi? Laudantium molestiae ipsum reprehenderit dolorum nemo praesentium adipisci quia nisi et delectus optio illum iure dolores inventore soluta ea dolor, illo pariatur neque aperiam commodi corporis deleniti sit sapiente. Ipsam, id quia expedita architecto illum ex sapiente placeat sed! Velit, possimus illo architecto quisquam, provident ad dolor delectus perspiciatis autem sed quasi pariatur, alias quam doloremque molestias assumenda. Autem nam minus ratione consectetur nulla magni cupiditate numquam totam, eius molestias magnam porro odio sequi! Provident aut tempore eius quo exercitationem possimus quia ea quam, earum id vitae blanditiis natus illo quidem, ullam fuga. Itaque voluptatem eligendi id minus facilis aspernatur, quas ullam. Repellat?</article>
+        
+        <div class="topright"><img src="images/RP_images/bear_sitting.png" alt="Cinque Terre" ></div>
+
+        
+
     </div>
-
-    <div class="row">
-        <div class="leftcolumn">
-            <div class="card">
-                <h2>Right WordPress, you just made the list</h2>
-                
-                <div class="fakeimg" >
-                    <figure>
-                        <img src="images/homer-revenge.png" alt="Homer revenge" >
-                        <figcaption>Homer's revenge list</figcaption>
-                    </figure></div>
-                
-                I was musing during the week on a range of topics, wondering what to write about here, and I began thinking that…,
-                actually, scratch that and let me start again.<br>
-                I was FUMING during the week, as usual, thinking of the f**ing range of people that infest my life these days, people
-                who seem to take pleasure in going out of their way to make the lives of those who they encounter as hard as possible,
-                and that of course reminded me of something I saw on The Simpsons, a show which has brought enormous pleasure into my
-                life, and almost always provides a good graphic to highlight the point I’m trying to make.<br>
-                Here it’s of course Homer’s revenge list, and that reminded me that it’s time I updated mine.<br>
-                So I suppose to start, you may have noticed that the blog is in a new location this week, now that’s because of the
-                constant crap that the major players on the internet seek to dispense to the ordinary digital citizens like me who are
-                just trying to do some writing each week, and share it with friends.<br>
-                To explain, I started this recent manifestation of the blog on WordPress for a few reasons but one of the main ones was
-                about finding work in the current phase of my life.<br>
-                I like being a gardener, but what I don’t like much is the constant driving I have to do to do my work.<br>
-                Most weeks these days I drive 400 kilometres to get around my various clients’ houses and do the mowing, weeding and
-                brush-cutting.<br>
-                So going back a few months, well maybe even a year or so, I thought I would explore going back to computer programming.<br>
-                That can be very stressful, but it does have the major upside that it can be done at home, indeed with servers and
-                remote access, the computer programming industry was of course one of the leaders being able to employ people in another
-                city, another state, and even another country.<br>
-                I rang a few digital houses in my local area, and one guy I spoke with here in Ballina, Ben, opined that there wasn’t
-                much call for my main programming specialties, but most sites he worked up for clients were six to eight page websites
-                for small businesses, all done in WordPress.<br>
-                So I figured I better learn WordPress.<br>
-                I was reasonably successful (I feel) at this, however almost every time I learned something about that fat, bloated hog
-                of a software package, I became correspondingly increasingly disenchanted with it, and it slowly dawned on me that I
-                didn’t want to spend the rest of my life fiddling about inside the admin panel of WordPress websites, trying to solve
-                the latest problem that was caused by other people’s code.<br>
-                So at around that point I began to give up on the idea of going back to computer programming as a job.<br>
-                And that led, in a roundabout way, to me musing on what I really wanted to do in life, and thus, and thankfully, I
-                recalled that I always wanted to be a writer.<br>
-                So I thought I would start the blog again, and get back in practice.<br>
-                However, as a compromise, I thought I would do the blog on a WordPress free site, and at least keep my hand in with
-                WordPress programming.<br>
-                So I wrote two posts there, but by the time I’d done the second one, I began to notice that there was a formatting bug
-                in the WordPress code.<br>
-                <div class="floatLeft">
-                    <figure  >
-                        <img src="images/WordPress_formatting_bug.png" alt="The WordPress formatting bug">
-                        <figcaption>The WordPress formatting bug</figcaption>
-                    </figure>
-                </div>
-                The figure on the left here shows the problem.<br> The paragraphs in green are correctly formatted, while the ones in red
-                show that by this stage I’d already lost patience with it, and just published them as they were.<br>
-                I write these posts in journalistic style, which means every sentence is its own paragraph.<br>
-                So when you hit a full stop, you hit enter, and a new paragraph is automatically started for you.<br>
-                However with WordPress this wasn't the case, what you had to do was go to the end of the paragraph, hit the space bar,
-                then hit the enter button, and then WordPress would add two lines, instead of the correct only one line.<br>
-                So I hit the delete on the second line, and that just sent the whole thing back to there being no new line at all.<br>
-                So fuming at that, I worked on it and discovered that the solution was even more finicky and blood-pressure raising than
-                I would have believed possible.<br>
-                You had to do all of the above, then cursor down to the start of the new paragraph, then make sure your cursor symbol
-                was hard up against the left margin, then hit delete from there.<br>
-                This solved the problem, but then I realised as mentioned above, I would have to write the whole post, and then go down
-                and make all these finicky and enraging changes for each paragraph.<br>
-                And that’s when I said: ‘fuck this’ and WordPress made the list.<br>
-                So then I decided to go back and check my old blog site, where I can remember never having this enraging problem, and
-                see if I could start using that site again and write stuff without having my blood pressure raised to levels that would
-                make a heart surgeon gibber.<br>
-                However once I got over there, I discovered a new problem that was in its way, even worse.<br>
-                Turns out that you need some sort of privacy policy to explain to your readers what data you are collecting on them if
-                they view your blog.<br>
-                The moment I read that it immediately occurred to me that since both Blogger and WordPress registered page views, that
-                meant they were collecting some form of data, so with yet another lugubrious sigh I realised I was going to have to do
-                some research and write, or get a privacy policy.<br>
-                Now needless to say, once I began looking into a privacy policy, it quickly became evident, that this was no easy task.<br>
-                There are some free privacy policy generator sites on the web, but when I went there, thinking that should make it easy
-                but discovered that these sites ask a series of questions that I had no idea of the answers to, and so with, once again,
-                my blood pressure rising to nuclear overload levels, I decided that I’m not gonna do that either.<br>
-                Since I didn’t really know what data Google, who now own the Blogspot website, or WordPress were collecting, I couldn’t
-                fill out the questions, since I had no real idea of the answers, and, as ever with these bloody things, most of the info
-                I’d garnered from the web indicated that having a privacy policy that was wrong, or at least incomplete, was as legally
-                problematic as not having one at all, I gave up on the whole idea decided to do my own blog at my GitHub repository.<br>
-                Here I can control what does, and doesn’t, go on the page, and thus has a measure of peace of mind about you, the reader
-                visiting the site.<br>
-                So here is the privacy policy, the blog is now just a simple HTML page that you can read.<br>
-                There are no ‘subscribe’, ‘like’ or comments section, no data collection at all, there are not even page views.<br>
-                So you can just go on the site, read it, hopefully enjoy it, and then leave.<br>
-                If you wish to comment, you can do so back at Facebook which is the only place I share the new blog site on social
-                media.<br>
-                So there we have it.<br>
-
-            </div>
-            
-        </div>
-        <div class="rightcolumn">
-            
-            
-           
-        </div>
-    </div>
-
-    <div class="footer">
-        <h2>Footer</h2>
-        <div class="card">
-            <h3>Recent posts</h3>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div>
-        </div>
-    </div>
-
+    <footer>
+        <h1>Here is the footer</h1>
+    </footer>
 </body>
 
 </html>
