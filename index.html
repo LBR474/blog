@@ -8,11 +8,85 @@
       box-sizing: border-box;
     }
 
+    article {
+      margin-right: 30px;
+      font-size: 24px;
+    }
+
     /* Add a gray background color with some padding */
     body {
       font-family: Arial;
       padding: 20px;
 
+    }
+
+    figure {
+      float: right;
+      border: thin #c0c0c0 solid;
+      display: flex;
+      flex-flow: column;
+      padding: 5px;
+      max-width: 30%;
+      margin-left: 20px;
+      margin-top: 0px;
+      margin-right: 0px;
+    }
+
+    figcaption {
+      background-color: #222;
+      color: #fff;
+      font: italic smaller sans-serif;
+      padding: 10px;
+      text-align: justify;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: auto;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 25px;
+    }
+
+    /* classes */
+    /*  */
+    /*  */
+    /*  */
+    /*  */
+
+
+     /* Add a card effect for articles */
+    .card {
+      position: relative;
+      background-color: white;
+      padding: 10px;
+      margin-left: 10px;
+      margin-right: 20px;
+      text-align: justify;
+
+    }
+
+    .finalImage {
+      min-width: 100%;
+      float: left;
+      margin-top: 25px;
+      margin-right: 25px;
+      margin-left: 0px;
+
+    }
+
+     /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
     }
 
     /* Header/Blog Title */
@@ -30,22 +104,6 @@
       width: 75%;
     }
 
-    /* Right column */
-    .rightcolumn {
-      float: left;
-      width: 25%;
-      padding-left: 20px;
-    }
-
-    .finalImage {
-      min-width: 100%;
-      float: left;
-      margin-top: 25px;
-      margin-right: 25px;
-      margin-left: 0px;
-
-    }
-
     .leftImage {
       max-width: 30%;
       float: left;
@@ -55,55 +113,22 @@
 
     }
 
-    figure {
-      float: right;
-      border: thin #c0c0c0 solid;
-      display: flex;
-      flex-flow: column;
-      padding: 5px;
-      max-width: 30%;
-      margin-left: 20px;
-      margin-top: 0px;
-      margin-right: 0px;
+
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
     }
 
-    img {
-      max-width: 100%;
-      max-height: auto;
-    }
-
-    figcaption {
-      background-color: #222;
-      color: #fff;
-      font: italic smaller sans-serif;
-      padding: 10px;
-      text-align: justify;
-    }
+    
+    
 
 
-    /* Add a card effect for articles */
-    .card {
-      position: relative;
-      background-color: white;
-      padding: 10px;
-      margin-left: 10px;
-      margin-right: 20px;
-      text-align: justify;
 
-    }
-    h2 {
-      font-size: 40px;
-    }
 
-    article {
-      margin-right: 30px;
-      font-size: 24px;
-    }
+   
 
-    p {
-      text-align: justify;
-      font-size: 25px;
-    }
 
     /* Clear floats after the columns */
     .row:after {
@@ -112,13 +137,7 @@
       clear: both;
     }
 
-    /* Footer */
-    .footer {
-      padding: 20px;
-      text-align: center;
-      background: #ddd;
-      margin-top: 20px;
-    }
+   
 
     /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 800px) {
@@ -177,10 +196,12 @@
           To which we as a class posited various fairly obvious options, pollution, climate change, elevated background
           extinction rate and various variations on these overarching topics. After a few minutes of discussion Geoff,
           the
-          instructor, called it to a halt and said, not in so many words: '<i> you're all wrong, the answer is soil loss</i>'.
+          instructor, called it to a halt and said, not in so many words: '<i> you're all wrong, the answer is soil
+            loss</i>'.
           <br>
           He then
-          proceeded to explain that, and it did make immediate sense. <br>  His argument, and I came to fully agree, was that
+          proceeded to explain that, and it did make immediate sense. <br> His argument, and I came to fully agree, was
+          that
           (This is
           if I recall properly) that although pollution, high extinction rates, climate change and all the rest were,
           and are,
@@ -188,7 +209,8 @@
           solved by
           closing coal mines and gas fields and moving with great energy to bring in more renewable energy and
           continuing the
-          research to make all forms of renewable energy even more efficient. <br> However, soil loss is a problem that no
+          research to make all forms of renewable energy even more efficient. <br> However, soil loss is a problem that
+          no
           amount of
           human effort can solve. <br> This is of course due to the phenomenally long time that it takes for the earth's
           geological
@@ -483,9 +505,10 @@
           Finally, I have been doing a lot of physiotherapy work on my chronically injured right hip and ankle, to do
           this I mostly ride the let-it-rust bike down to the river, and do a form of aquarobics in the water, I call it
           RiverRobics. <br>
-          It's great down there, but the problem is it is yet another activity I do alone, and since loneliness is one of
+          It's great down there, but the problem is it is yet another activity I do alone, and since loneliness is one
+          of
           my problems these days, I thought maybe I would start going to the gym again, and working out there. <br>
-          So I checked the serach engine for gyms in Ballina, and discovered this one, which I would think either has to
+          So I checked the search engine for gyms in Ballina, and discovered this one, which I would think either has to
           change its name, or start f***ing opening 24 hours. <br>
           <figure class="finalImage">
             <img src="images/24-7-question-mark.png" alt="">
@@ -509,7 +532,7 @@
 
       <div class="card">
         <h3>Recent Posts</h3>
-        <a href="index_previous.html">Right WordPress, you just made the list</a>
+        <a href="recent_posts/right_wordpress/right_wordpress.html">Right WordPress, you just made the list</a>
       </div>
 
     </div>
