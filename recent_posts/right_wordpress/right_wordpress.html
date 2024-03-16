@@ -3,109 +3,152 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    /* Add a gray background color with some padding */
-    body {
-      font-family: Arial;
-      padding: 20px;
-      background: #f1f1f1;
-      text-align: justify;
-    }
-
-    figure {
-      margin-top: 0px;
-      width: 100%;
-      height: auto;
-    }
-
-
-    .floatLeft {
-      float: left;
-      margin: 20px;
-    }
-
-    /* Header/Blog Title */
-    .header {
-      padding: 30px;
-      font-size: 40px;
-      text-align: center;
-      background: white;
-    }
-
-    /* Create two unequal columns that floats next to each other */
-    /* Left column */
-    .leftcolumn {
-      float: left;
-      width: 100%;
-      line-height: 1.6;
-      font-size: 24px;
-    }
-
-    /* Right column */
-    .rightcolumn {
-      float: left;
-      width: 0%;
-      padding-left: 20px;
-    }
-
-    /* Fake image */
-    .fakeimg {
-
-
-      float: right;
-      margin-left: 20px;
-      margin-bottom: 20px;
-
-    }
-
-    /* Add a card effect for articles */
-    .card {
-      background-color: white;
-      padding: 20px;
-      margin-top: 20px;
-      text-align: justify;
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    /* Footer */
-    .footer {
-      padding: 20px;
-      text-align: center;
-      background: #ddd;
-      margin-top: 20px;
-    }
-
-    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 800px) {
-
-      img,
-      figure,
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    
+      article {
+        margin-right: 30px;
+        font-size: 24px;
+      }
+    
+      /* Add a gray background color with some padding */
+      body {
+        font-family: Arial;
+        padding: 20px;
+    
+      }
+    
+      figure {
+        float: right;
+        border: thin #c0c0c0 solid;
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        max-width: 30%;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-right: 0px;
+      }
+    
       figcaption {
-        font-size: 12px;
-        width: 80%;
-        height: auto;
+        background-color: #222;
+        color: #fff;
+        font: italic smaller sans-serif;
+        padding: 10px;
+        text-align: justify;
+      }
+    
+      h2 {
+        font-size: 40px;
+      }
+    
+      img {
+        max-width: 100%;
+        max-height: auto;
+      }
+    
+      p {
+        text-align: justify;
+        font-size: 25px;
+      }
+    
+      /* classes */
+      /*  */
+      /*  */
+      /*  */
+      /*  */
+    
+    
+      /* Add a card effect for articles */
+      .card {
+        position: relative;
+        background-color: white;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        text-align: justify;
+    
+      }
+    
+      .finalImage {
+        min-width: 100%;
+        float: left;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-left: 0px;
+    
+      }
+    
+      /* Footer */
+      .footer {
+        padding: 20px;
         text-align: center;
+        background: #ddd;
+        margin-top: 20px;
       }
-
-      .leftcolumn,
+    
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        font-size: 60px;
+        text-align: center;
+        background: white;
+      }
+    
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+    
+      .leftImage {
+        max-width: 30%;
+        float: left;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-left: 0px;
+    
+      }
+    
+    
+      /* Right column */
       .rightcolumn {
-
-        width: 100%;
-        padding: 0;
+        float: left;
+        width: 25%;
+        padding-left: 20px;
       }
-    }
-  </style>
-</head>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    
+    
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+    
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+    </style></head>
 
 <body>
 
@@ -124,7 +167,7 @@
             <figcaption>Homer's revenge list</figcaption>
           </figure>
         </div>
-
+        <article>
         I was musing during the week on a range of topics, wondering what to write about here, and I began thinking
         that…,
         actually, scratch that and let me start again.<br>
@@ -246,6 +289,7 @@
         <br>
         I won't share the full list with you, because as you would suspect from my eternal complaining, the list is now
         so long that I need a whole server, not just a single page, to write it fully.
+        </article>
 
       </div>
       <div class="card">
@@ -257,7 +301,7 @@
 
           </figure>
         </div>
-
+        <article>
         Also during the week, I ran into some old friends from Byron, Barb and Ivan, we had a good chat, and during that
         Ivo (I
         think), came up with a Wildean doublet, that seemed pretty funny at the time <br>
@@ -273,12 +317,21 @@
         However the wits get involved in a round of trying to get the others in trouble, and so end up making increasingly derogatory remarks about the king, and so..., well anyway, rather than me try to explain it, 
          you can find that sketch here:
         <a  href="https://www.youtube.com/watch?v=uycsfu4574w&ab_channel=DanHadan"> The Oscar Wilde sketch</a>
-
+          </article>
       </div>
 
 
     </div>
     <div class="rightcolumn">
+      <div class="card">
+        <h3>Recent Posts</h3>
+        <p>
+          <a href="../a-bear-sat/a-bear-sat-on-it.html">A bear sat on it</a>
+        </p>
+        <p>
+          <a href="../barts_lawyer/barts_lawyer.html">Bart's lawyer is here</a>
+        </p>
+      </div>
 
 
 
