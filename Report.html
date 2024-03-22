@@ -1,31 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            background-color: black;
-            color: bisque;
-            text-align: center;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        h1 {
-            font-size: 128px;
-        }
-        .centered {
-            position: absolute;
-            top: 40%;
-            
-        }
-    </style>
-</head>
-<body> 
-    
-    <div class="centered">
-    <h1>Let the cards fall where they may</h1>
-    </div>
+<html>
+
+<body>
+
+    <h2>Iframe - Target for a Link</h2>
+
+    <iframe src="index_new.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+    <p><a href="index_previous.html" target="iframe_a">W3Schools.com</a></p>
+
+    <p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+
 </body>
+
 </html>
