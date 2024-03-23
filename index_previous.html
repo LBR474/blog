@@ -11,6 +11,7 @@
 
 
     }
+
     @font-face {
       font-family: "CustomFontLight";
       src: url("Epilogue/static/Epilogue-Light.ttf");
@@ -31,16 +32,23 @@
       box-sizing: border-box;
     }
 
+
+
     article {
       margin-right: 30px;
+      margin-top: 50px;
       font-size: 24px;
-      font-family: 'CustomFontLight'
+      font-family: 'CustomFontLight';
     }
 
     /* Add a gray background color with some padding */
     body {
-      font-family: Arial;
+      font-family: 'CustomFontLight';
       padding: 20px;
+      background-color: bisque;
+      color: black;
+      line-height: 2.0;
+
 
     }
 
@@ -66,12 +74,6 @@
 
     h2 {
       font-size: 40px;
-      font-family: 'CustomFontRegular';
-    }
-
-    h3 {
-      font-size: 30px;
-      font-family: 'CustomFontRegular';
     }
 
     img {
@@ -82,6 +84,8 @@
     p {
       text-align: justify;
       font-size: 25px;
+      border: 1px black solid;
+      margin-bottom: 10px;
     }
 
     /* classes */
@@ -94,13 +98,18 @@
     /* Add a card effect for articles */
     .card {
       position: relative;
-      background-color: white;
-      padding: 10px;
-      margin-left: 10px;
+
+
+      padding-bottom: 0px;
+      margin-bottom: 25px;
+      /* margin-left: 10px;
       margin-right: 20px;
-      text-align: justify;
+      text-align: justify; */
+      background-color: bisque;
+      color: black;
 
     }
+
 
     .finalImage {
       min-width: 100%;
@@ -117,6 +126,8 @@
       text-align: center;
       background: #ddd;
       margin-top: 20px;
+      background-color: bisque;
+      color: black;
     }
 
     /* Header/Blog Title */
@@ -124,8 +135,8 @@
       padding: 30px;
       font-size: 60px;
       text-align: center;
-      background: white;
-      font-family: 'CustomFontRegular';
+      background-color: bisque;
+      color: black;
     }
 
     /* Create two unequal columns that floats next to each other */
@@ -133,10 +144,34 @@
     .leftcolumn {
       float: left;
       width: 75%;
+      background-color: bisque;
+      color: rgb(7, 7, 7);
+      border: 2px rgb(0, 0, 0) solid;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .leftcolumn a {
+
+      color: rgb(0, 0, 0);
+    }
+
+    .leftcolumn a:visited {
+
+      color: rgb(1, 1, 1);
     }
 
     .leftImage {
       max-width: 30%;
+      float: left;
+      margin-top: 0px;
+      margin-right: 25px;
+      margin-left: 0px;
+
+    }
+
+    .mainImage {
+      min-width: 100%;
       float: left;
       margin-top: 25px;
       margin-right: 25px;
@@ -149,8 +184,29 @@
     .rightcolumn {
       float: left;
       width: 25%;
-      padding-left: 20px;
+      padding: 10px;
+      background-color: black;
+      color: bisque;
+      border: 2px rgb(0, 0, 0) dotted;
+
     }
+
+    .rightcolumn a {
+      background-color: black;
+      color: bisque;
+    }
+
+    .rightcolumn a:visited {
+      background-color: black;
+      color: bisque;
+    }
+
+    .rightcolumn a:hover {
+      background-color: black;
+      color: rgb(6, 238, 246);
+    }
+
+
 
 
 
@@ -191,182 +247,329 @@
   <div class="row">
     <div class="leftcolumn">
       <div class="card">
-        <h2>Right WordPress, you just made the list</h2>
+        <h2>Why I like watching bike racing on TV</h2>
 
-        <div class="fakeimg">
-          <figure>
-            <img src="images/homer-revenge.png" alt="Homer revenge">
-            <figcaption>Homer's revenge list</figcaption>
-          </figure>
-        </div>
+        <figure class="mainImage">
+          <img src="images/images_love_bike_racing/Milan_San_Remo_Main_Image.png" alt="">
+          <figcaption>Milan San Remo bike race.</figcaption>
+
+        </figure>
+
+
+
         <article>
-        I was musing during the week on a range of topics, wondering what to write about here, and I began thinking
-        that…,
-        actually, scratch that and let me start again.<br>
-        I was FUMING during the week, as usual, thinking of the f**ing range of people that infest my life these days,
-        people
-        who seem to take pleasure in going out of their way to make the lives of those who they encounter as hard as
-        possible,
-        and that of course reminded me of something I saw on The Simpsons, a show which has brought enormous pleasure
-        into my
-        life, and almost always provides a good graphic to highlight the point I’m trying to make.<br>
-        Here it’s of course Homer’s revenge list, and that reminded me that it’s time I updated mine.<br>
-        So I suppose to start, you may have noticed that the blog is in a new location this week, now that’s because of
-        the
-        constant crap that the major players on the internet seek to dispense to the ordinary digital citizens like me
-        who are
-        just trying to do some writing each week, and share it with friends.<br>
-        To explain, I started this recent manifestation of the blog on WordPress for a few reasons but one of the main
-        ones was
-        about finding work in the current phase of my life.<br>
-        I like being a gardener, but what I don’t like much is the constant driving I have to do to do my work.<br>
-        Most weeks these days I drive 400 kilometres to get around my various clients’ houses and do the mowing, weeding
-        and
-        brush-cutting.<br>
-        So going back a few months, well maybe even a year or so, I thought I would explore going back to computer
-        programming.<br>
-        That can be very stressful, but it does have the major upside that it can be done at home, indeed with servers
-        and
-        remote access, the computer programming industry was of course one of the leaders being able to employ people in
-        another
-        city, another state, and even another country.<br>
-        I rang a few digital houses in my local area, and one guy I spoke with here in Ballina, Ben, opined that there
-        wasn’t
-        much call for my main programming specialties, but most sites he worked up for clients were six to eight page
-        websites
-        for small businesses, all done in WordPress.<br>
-        So I figured I better learn WordPress.<br>
-        I was reasonably successful (I feel) at this, however almost every time I learned something about that fat,
-        bloated hog
-        of a software package, I became correspondingly increasingly disenchanted with it, and it slowly dawned on me
-        that I
-        didn’t want to spend the rest of my life fiddling about inside the admin panel of WordPress websites, trying to
-        solve
-        the latest problem that was caused by other people’s code.<br>
-        So at around that point I began to give up on the idea of going back to computer programming as a job.<br>
-        And that led, in a roundabout way, to me musing on what I really wanted to do in life, and thus, and thankfully,
-        I
-        recalled that I always wanted to be a writer.<br>
-        So I thought I would start the blog again, and get back in practice.<br>
-        However, as a compromise, I thought I would do the blog on a WordPress free site, and at least keep my hand in
-        with
-        WordPress programming.<br>
-        So I wrote two posts there, but by the time I’d done the second one, I began to notice that there was a
-        formatting bug
-        in the WordPress code.<br>
-        <div class="floatLeft">
-          <figure>
-            <img src="images/WordPress_formatting_bug.png" alt="The WordPress formatting bug">
-            <figcaption>The WordPress formatting bug</figcaption>
+
+          A few months ago I was talking on the phone with my friend Michael, and I said: <i> ‘it’s a strange phase of
+            life
+            for me at
+            the moment Michael, the only thing I really like to do is ride my own bike for 50 kilometres, then come home
+            and watch
+            other people ride their bikes for 200 kilometres’.</i> <br>
+          Which made me think about why I like it so much. <br>
+          I’ve written about this before, in the previous blog incarnation, but I’ll just mention it again as
+          background. <br>
+          In about the mid-noughties - which I think is the main nickname for the period from 2000-2009 - I began to
+          descend
+          unhappily, and frighteningly quickly into full-blown alcoholism.
+          I always vaguely knew I had some depressive tendencies, but when that began to happen, I feel - looking back
+          on it -
+          that I had no idea just how depressed I had become. <br>
+          If I had some work to do, I would go and do it, and if I could summon the energy after that, I would go
+          surfing. <br>
+          However on days with no work, I would often look out the window and try to find a reason to get through the
+          day, often I
+          couldn’t really find a reason to go out the front door, and so sadly my I-can-start-drinking time began to
+          drift inexorably forwards. <br>
+          When things got bad, I might start drinking at 11 o’clock in the morning, just under the heading of having
+          nothing else
+          to do. <br>
+          This of course began to radically affect my sleeping patterns, and it is an easy step of logic to see that if
+          you’re
+          going to start imbibing at 11a.m, then by three or four pm you’re going to crash down into a restless,
+          non-refreshing
+          “sleep”.
+          Then I would wake up perhaps at 9pm and be wide awake and unable to sleep at the customary hours humans
+          sleep.<br>
+          So I would turn on the TV and, ever so thankfully, as I recall, when this began to happen regularly, it was
+          mid-winter,
+          and so the Tour de France was on TV and so I began watching that as I waited for some form of sleepiness to
+          return.<br>
+          And immediately I fell in love with it, and gained a great deal of meditative pleasure from watching the
+          kilometres
+          disappear under the wheels of the cyclists, a pleasure which is still with me today.<br>
+          Now, fifteen or so years later it occurred to me to wonder what it is about bike racing on TV that I continue
+          to like so
+          much, and
+          write this post about it.<br>
+          So first, and I think most obviously, there is the scenery.<br>
+          <figure class="mainImage">
+            <img src="images/PArco_DelTicino_MIlan_San_Remo.png" alt="">
+
+
           </figure>
-        </div>
-        The figure on the left here shows the problem.<br> The paragraphs in green are correctly formatted, while the
-        ones in red
-        show that by this stage I’d already lost patience with it, and just published them as they were.<br>
-        I write these posts in journalistic style, which means every sentence is its own paragraph.<br>
-        So when you hit a full stop, you hit enter, and a new paragraph is automatically started for you.<br>
-        However with WordPress this wasn't the case, what you had to do was go to the end of the paragraph, hit the
-        space bar,
-        then hit the enter button, and then WordPress would add two lines, instead of the correct only one line.<br>
-        So I hit the delete on the second line, and that just sent the whole thing back to there being no new line at
-        all.<br>
-        So fuming at that, I worked on it and discovered that the solution was even more finicky and blood-pressure
-        raising than
-        I would have believed possible.<br>
-        You had to do all of the above, then cursor down to the start of the new paragraph, then make sure your cursor
-        symbol
-        was hard up against the left margin, then hit delete from there.<br>
-        This solved the problem, but then I realised as mentioned above, I would have to write the whole post, and then
-        go down
-        and make all these finicky and enraging changes for each paragraph.<br>
-        And that’s when I said: ‘fuck this’ and WordPress made the list.<br>
-        So then I decided to go back and check my old blog site, where I can remember never having this enraging
-        problem, and
-        see if I could start using that site again and write stuff without having my blood pressure raised to levels
-        that would
-        make a heart surgeon gibber.<br>
-        However once I got over there, I discovered a new problem that was in its way, even worse.<br>
-        Turns out that you need some sort of privacy policy to explain to your readers what data you are collecting on
-        them, or more enragingly accurately, what data Google and WordPress are collecting from your blog.<br>
-        The moment I read that it immediately occurred to me that since both Blogger and WordPress registered page
-        views, that
-        meant they were collecting some form of data, so with yet another lugubrious sigh I realised I was going to have
-        to do
-        some research and write, or get a privacy policy.<br>
-        Now needless to say, once I began looking into a privacy policy, it quickly became evident, that this was no
-        easy task.<br>
-        There are some free privacy policy generator sites on the web, but when I went there, thinking that should make
-        it easy
-        but discovered that these sites ask a series of questions that I had no idea of the answers to, and so with,
-        once again,
-        my blood pressure rising to nuclear overload levels, I decided that I’m not gonna do that either.<br>
-        Since I didn’t really know what data Google, who now own the Blogspot website, or WordPress were collecting, I
-        couldn’t
-        fill out the questions, since I had no real idea of the answers, and, as ever with these bloody things, most of
-        the info
-        I’d garnered from the web indicated that having a privacy policy that was wrong, or at least incomplete, was as
-        legally
-        problematic as not having one at all, I gave up on the whole idea decided to do my own blog at my GitHub
-        repository.<br>
-        Here I can control what does, and doesn’t, go on the page, and thus has a measure of peace of mind about you,
-        the reader
-        visiting the site.<br>
-        So here is the privacy policy, the blog is now just a simple HTML page that you can read.<br>
-        There are no ‘subscribe’, ‘like’ or comments section, and I certainly am not collecting any data at all.<br>
-        So you can just go on the site, read it, hopefully enjoy it, and then leave.<br>
-        If you wish to comment, you can do so back at Facebook which is the only place I share the new blog site on
-        social
-        media.<br>
-        So there we have it, that's why WordPress are now on my list.
+          Most sports that have large audiences are played in a single location, e.g. aussie rules, rugby league and
+          cricket.<br>
+          For those sports you hardly notice the stadium, your attention is focussed solely on the game.<br>
+          However with bike racing, you follow the race through the country for 150-200 kilometres, seeing the beautiful
+          scenery
+          along the way as a supremely pleasant background to watching the race.<br>
+          With stage racing, I should add, most stages are 150-200 kilometres long, and there is a general, informal,
+          structure of
+          the racing along the stage.<br>
+          That is, at the beginning of the stage, a smaller group of riders rush frantically forwards and form a
+          breakaway.<br>
+          This smaller group then race onwards, two or three minutes ahead of the main group, the peloton, for the next
+          hundred or
+          so kilometres.<br>
+          Most road racing is done at around 40 kph, and so for the first two and a half hours of the race on that day,
+          things are
+          pretty calm, all right, can be described as boring, as we watch the race mosey along with no positional
+          changes from the
+          riders.<br>
+          <figure class="mainImage">
+            <img src="images/San_Bartolomeo_Mailan_San_Remo.png" alt="">
+
+
+          </figure>
+          So this calm period is actually something I like, I find it an aid to meditation, and the network covering the
+          race know
+          this as well, so they do their research and have lots of information about the various spots of interest the
+          race passes
+          along the way to bring up onto the bottom of the screen for the audience to read and learn about the
+          countryside,
+          history and culture of the country we are currently racing through.<br>
+          <figure class="rightImage">
+            <img src="images/images_love_bike_racing/appalacian_wilderness.png" alt="">
+            <figcaption>The Appalachian wilderness</figcaption>
+
+
+            <img src="images/images_love_bike_racing/Appalacian_trail_map.png" alt="">
+            <figcaption>The Appalachian trail</figcaption>
+
+          </figure>
+
+
+          So I think what I’m saying there is that even if you have no interest in bike racing, then you can watch the
+          bike racing
+          and just get enjoyment from the picturesque nature of the coverage.<br>
+
+          Which leads to another point, John Muir was an american pioneer wilderness preservationist who was one of the
+          founders of the Appalacian Trail hiking route down the eastern seaboard of the United States, and he famously
+          <a href="https://thetrek.co/appalachian-trail/theres-the-back-fence-line-again/"> said</a> of
+          the
+          beauty of this wilderness that upon seeing it: <br> <i>
+            ‘Who has not felt the urge to throw a loaf of bread and a pound of tea in an old sack and jump over the back
+            fence?’
+          </i> <br>
+          To which I would add, who can look at photos like these of the Milan-San Remo bike race, and not want to
+          immediately
+          head down the tourist office and book a flight and go and see Italy? <br>
+          <br>
+          <br>
+          <h2>Now on to the complaining</h2>
+          So bike racing is a thing I enjoy, but sadly that now leads us to the part you’ve all been dreading, which is
+          the
+          complaining part.<br>
+          Before bike racing came into my life, my previous great enjoyment was watching test cricket on TV.<br>
+          Test cricket has a slow rhythm and goes for six hours of the day and I found something relaxing in the slow
+          paced tempo
+          of this sport.<br>
+          I’d lost a lot of interest in cricket for a while, but then about 2001 I got dumped, badly, by a woman who I
+          had fallen
+          deeply in love with.<br>
+          With my life an empty, gray, barren plane of despair, and not drinking at the time as I’d finally realised
+          that I had a
+          problem, I found each day stretching before me like a prison sentence.<br>
+          I hung around my home, smoking innumerable cigarettes - I hadn’t figured that one yet - and tried to pass my
+          time.<br>
+          One day I turned on the TV to see if anything there could occupy my mind, and discovered the cricket was
+          on.<br>
+          So I sat down to watch it.<br>
+          It was a godsend in its way, I became immediately absorbed in the match, even more than I had been as a young
+          child.<br>
+          It wasn’t so much that I was interested in the outcome, it wasn’t something to do, it was more an absence of
+          nothing.<br>
+          While the cricket was on, and with the drone of Ian Chappell and the rest of the Channel Nine commentary team
+          I could
+          shut out the pain of my recent dumping.<br>
+          There then began a new love affair with cricket that went on for the next ten to 15 years.<br>
+          That love deepened when I realised you could listen to the ABC commentary with Jim Maxwell and the team in
+          sync with the
+          TV with the sound off, and thus the very quickly annoying Channel Nine commentary team turned down to zero
+          volume.<br>
+          However things began to change markedly in the modern era when Cricket Australia turned into a money hungry
+          organisation, with no concern for test cricket fans, only how much money they could ring out of the wallets of
+          anyone
+          with a remote interest in the white-flannelled game.<br>
+          So Cricket Australia began to sell the game we loved to the highest bidder, and allow the most appallingly
+          destructive
+          advertising to rule the sport.<br>
+          Additionally, they worked out that there were a number of people like me who watched the game in silence and
+          listened to
+          the ABC - commercial free - commentary, and realised that meant we weren’t hearing the ads, and so changed the
+          technicalities of the broadcast so that it was no longer possible to sync the ABC coverage with the TV.<br>
+          And the worst of this advertising in my opinion is alcohol advertising.<br>
+          There are sposed to be rules to stop the advertising of alcohol to children, but the advertising industry just
+          ran
+          roughshod over any sense of morality and had the rule changed so they could advertise alcohol to those
+          underage.<br>
+          So I tried to watch the test cricket with the ABC commentary but in the end, sooner or later an alcohol ad
+          appeared, and
+          this made me so angry that I just couldn’t enjoy the match, furious at this outrageous display of immorality
+          from the
+          advertising industry, Cricket Australia and the host broadcaster, then Channel Nine, now Channel Seven.<br>
+          Since watching test cricket was supposed to be part of my therapy, and in fact it was only making me more
+          angry, test
+          cricket just had to go from my watching rotation.<br>
+          Further to that, while advertising alcohol to children is just flat out wrong, I would go further and state
+          that
+          Australia needs no alcohol advertising at all.<br>
+          As ever with these diatribes, I’m never calling for the banning of alcohol, as of prohibition in the US in the
+          twenties,
+          I am simply saying that anyone who wants a drink can have one, and knows where to get one, so why do we need
+          any ads
+          encouraging people to have a drink at 9.30 on Saturday morning when the test cricket broadcast begins?
+          Answer: we don’t.<br>
+          But as ever while I’m working to bring my blood pressure down to safe levels, as they are always inordinately
+          exercised
+          whenever I think about this outrageously amoral alcohol advertising, I’m reminded of where the counter to this
+          was done
+          best, on the D-Generation in the 80s.<br>
+          <figure class="rightImage">
+            <img src="images/D-Gen.png" alt="">
+            <figcaption>The D-Generation, one of the greatest shows ever produced in Australia</figcaption>
+
+
+
+
+          </figure>
+          At that time the advertising industry brought out an ad, too fatuous for words, in which they tried to make
+          people
+          love
+          advertising.<br>
+          The theme of the ad was: <i> ‘in some countries they don’t have advertising to annoy them’.</i><br>
+          It showed a family sitting around in their living room, surrounded by consumer durables, and one by one each
+          item -
+          couch, TV, fridge, etc - were removed from the family, and each time the stentorian voice over would say: <i>
+            ‘in
+            some
+            countries they don’t have advertising to annoy them’. </i><br>
+          Meaning, that without advertising you would not have any of the household items you hold dear. <br>
+          Even as I think back to that utterly ridiculous ad, I find it impossible to believe that even the people who
+          wrote that ad could possibly think that anyone would believe it, most notably the advertising industry trying
+          to claim that the reason
+          why there
+          was a couch in your house was because you saw an ad on TV for couches, and were suddenly struck with the
+          blindingly
+          brilliant idea that instead of wallowing around on the floor, you should go out and buy something for your
+          family to sit
+          on.<br>
+          This ad was just too moronic and enraging for words, however the D-Generation soon showed the utter idiocy and
+          stupidity of that ad, they ran a spoof ad which followed the same pattern, of the
+          family
+          having their durables removed with the <i> ‘some countries don’t have advertising to annoy them’</i> voice
+          over, but on the
+          last one
+          the D-Generation
+          added: <b> <i>‘we do’.</i></b><br>
+        </article>
+      </div>
+      <p>
+      <h2>Quirky corner</h2>
+
+      <article>
+        <h3>Long distance service</h3>
+
+        <figure class="rightImage">
+          <img src="images/sunda_distancee.png" alt="">
+
+        </figure>
+        <figure class="leftImage">
+          <img src="images/sunda.jpeg" alt="">
+
+        </figure>
+
+        I pulled up short outside one of my local supermarkets, astounded at the service implied here. <br>
+        I'm not sure how this would work, but any commercial enterprise that offers to stay open for the full five and
+        a half thousand kilometres, sure gets my vote! <br>
+
+
+      </article>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <p>
+      <article>
+
+
+        <h3>Freudian or what?</h3>
+        <figure class="rightImage">
+          <img src="images/face_breakdown_small.png" alt="">
+
+        </figure>
+
+
+        I went to write a message on my phone, and I was planning to say: <br> <i>'I'm having a break from
+          Facebook.'</i> <br>
+        The autosuggest came up with <i>breakdown</i>, and so I nearly wrote: <br><i>'I'm having a breakdown from
+          Facebook'</i> <br>
+        Which, when I thought about it is actually more accurate. <br>
+        If you're reading this, it is because I have contacted you specifically, and asked if you'd like to be on the
+        email notification list. <br>
+        I began to find Facebook just too hard, everytime you put up a post about anything, you risk some smart arse
+        comment from someone who doesn't think things through. <br>
+        I realised I've had enough of that, and so we will have the blog in a quiet, uncharted back corner of the
+        internet, for me to enjoy writing, and for you to (hopefully) enjoy reading.
         <br>
-        I won't share the full list with you, because as you would suspect from my eternal complaining, the list is now
-        so long that I need a whole server, not just a single page, to write it fully.
-        </article>
-      </div>
-      <div class="card">
-        <h2>The only thing worse than </h2>
+        See you next week everybody.
 
-        <div class="fakeimg">
-          <figure>
-            <img src="images/wilde quote.png" alt="Wilde">
 
-          </figure>
-        </div>
-        <article>
-        Also during the week, I ran into some old friends from Byron, Barb and Ivan, we had a good chat, and during that
-        Ivo (I
-        think), came up with a Wildean doublet, that seemed pretty funny at the time <br>
-        The topic was divorce and marriage, and tho I can’t remember how the topic came up, we laughed together over the
-        end
-        summary of it, which was: <br>
-        ‘The only thing worse than getting divorced is getting married in the first place’. <br>
-        So there’s a philosophy for life than we can all muse on. <br>
-        And quick PS: I'm not referring here to my ex-wife, she deserved better than me as a young man, arrogant,
-        uncaring, selfish and entitled young shit that I was. <br>
-        And of course, the final word on Wildean doublets is (almost inevitably) Monty Python. <br>
-        There is a famous sketch where the accepted wits and thinkers of the day are gathered around the king and are
-        engaged in constant flattery of the royal. <br>
-        However the wits get involved in a round of trying to get the others in trouble, and so end up making
-        increasingly derogatory remarks about the king, and so..., well anyway, rather than me try to explain it,
-        you can find that sketch here:
-        <a href="https://www.youtube.com/watch?v=uycsfu4574w&ab_channel=DanHadan"> The Oscar Wilde sketch</a>
-        </article>
-      </div>
+      </article>
+      </p>
+
+
 
 
     </div>
+
+
+
+
+
+
+
     <div class="rightcolumn">
+
+
+      <h2>Recent Posts</h2>
+      <p> <a href="recent_posts/gardening_succeed/gardening_succeed.html">How to succeed at gardening without really
+          trying</a> </p>
+      <p> <a href="recent_posts/right_wordpress/right_wordpress.html">Right WordPress, you just made the list</a> </p>
+      <p>
+        <a href="recent_posts/a-bear-sat/a-bear-sat-on-it.html">A bear sat on it</a>
+      </p>
+      <p>
+        <a href="recent_posts/barts_lawyer/barts_lawyer.html">Bart's lawyer is here</a>
+      </p>
 
 
 
     </div>
   </div>
 
-  <div class="footer">
-    <h2>Footer</h2>
-    <div class="card">
+  </div>
 
-    </div>
+  <div class="footer">
+
   </div>
 
 </body>
